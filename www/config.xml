@@ -1,0 +1,74 @@
+<widget id="com.FallArmyworm.Mobile" version="1.0.0" versionCode="1">
+  <name>Viwavijeshi (Fall Armyworm)</name>
+  <description>Template</description>
+  <author email="email@sample.com" href="http://sample.com">Author</author>
+  <preference name="permissions" value="none" />
+  <preference name="prerendered-icon" value="true" />
+  <preference name="android-windowSoftInputMode" value="adjustResize" />
+  <preference name="SplashScreen" value="splash" />
+  <preference name="SplashScreenDelay" value="60000" />
+  <preference name="AutoHideSplashScreen" value="false" />
+  <preference name="SplashShowOnlyFirstTime" value="false" />
+  <preference name="FadeSplashScreen" value="false" />
+  <preference name="ShowSplashScreenSpinner" value="false" />
+  <preference name="DisallowOverscroll" value="true" />
+  <preference name="StatusBarOverlaysWebView" value="false" />
+  <preference name="StatusBarBackgroundColor" value="#000000" />
+  <preference name="android-minSdkVersion" value="14" />
+  <preference name="android-targetSdkVersion" value="28" />
+  <access origin="*" />
+  <plugin name="cordova-plugin-whitelist" />
+  <plugin name="cordova-plugin-splashscreen" onload="true" />
+  <plugin name="cordova-plugin-ios-longpress-fix" />
+  <plugin name="cordova-plugin-statusbar" onload="true" />
+  <config-file platform="ios" parent="CFBundleShortVersionString">
+    <string>1.0.0</string>
+  </config-file>
+  <icon src="res/PackageIcons.Android.ic_launcher_36_36.png" platform="android" qualifier="ldpi" />
+  <icon src="res/PackageIcons.Android.ic_launcher_48_48.png" platform="android" qualifier="mdpi" />
+  <icon src="res/PackageIcons.Android.ic_launcher_72_72.png" platform="android" qualifier="hdpi" />
+  <icon src="res/PackageIcons.Android.ic_launcher_96_96.png" platform="android" qualifier="xhdpi" />
+  <splash src="res/PackageIcons.Android.splash_200_320.png" platform="android" qualifier="ldpi" />
+  <splash src="res/PackageIcons.Android.splash_320_480.png" platform="android" qualifier="mdpi" />
+  <splash src="res/PackageIcons.Android.splash_480_800.png" platform="android" qualifier="hdpi" />
+  <splash src="res/PackageIcons.Android.splash_720_1280.png" platform="android" qualifier="xhdpi" />
+  <splash src="res/PackageIcons.Android.splash_320_200.png" platform="android" qualifier="land-ldpi" />
+  <splash src="res/PackageIcons.Android.splash_480_320.png" platform="android" qualifier="land-mdpi" />
+  <splash src="res/PackageIcons.Android.splash_800_480.png" platform="android" qualifier="land-hdpi" />
+  <splash src="res/PackageIcons.Android.splash_1280_720.png" platform="android" qualifier="land-xhdpi" />
+  <icon src="res/PackageIcons.iOS.icon.png" platform="ios" width="57" height="57" />
+  <icon src="res/PackageIcons.iOS.icon-60.png" platform="ios" width="60" height="60" />
+  <icon src="res/PackageIcons.iOS.icon-72.png" platform="ios" width="72" height="72" />
+  <icon src="res/PackageIcons.iOS.icon-76.png" platform="ios" width="76" height="76" />
+  <icon src="res/PackageIcons.iOS.icon@2x.png" platform="ios" width="114" height="114" />
+  <icon src="res/PackageIcons.iOS.icon-60@2x.png" platform="ios" width="120" height="120" />
+  <icon src="res/PackageIcons.iOS.icon-72@2x.png" platform="ios" width="144" height="144" />
+  <icon src="res/PackageIcons.iOS.icon-76@2x.png" platform="ios" width="152" height="152" />
+  <icon src="res/PackageIcons.iOS.icon-60@3x.png" platform="ios" width="180" height="180" />
+  <icon src="res/PackageIcons.iOS.AppIcon40x40~ipad.png" platform="ios" width="40" height="40" />
+  <icon src="res/PackageIcons.iOS.AppIcon40x40@2x.png" platform="ios" width="80" height="80" />
+  <icon src="res/PackageIcons.iOS.AppIcon40x40@3x.png" platform="ios" width="120" height="120" />
+  <icon src="res/PackageIcons.iOS.AppIcon50x50~ipad.png" platform="ios" width="50" height="50" />
+  <icon src="res/PackageIcons.iOS.AppIcon50x50@2x~ipad.png" platform="ios" width="100" height="100" />
+  <icon src="res/PackageIcons.iOS.AppIcon29x29.png" platform="ios" width="29" height="29" />
+  <icon src="res/PackageIcons.iOS.AppIcon29x29@2x.png" platform="ios" width="58" height="58" />
+  <icon src="res/PackageIcons.iOS.AppIcon29x29@3x.png" platform="ios" width="87" height="78" />
+  <splash src="res/PackageIcons.iOS.Default~iphone.png" platform="ios" width="320" height="480" />
+  <splash src="res/PackageIcons.iOS.Default@2x~iphone.png" platform="ios" width="640" height="960" />
+  <splash src="res/PackageIcons.iOS.Default-568h@2x~iphone.png" platform="ios" width="640" height="1136" />
+  <splash src="res/PackageIcons.iOS.Default-667h.png" platform="ios" width="750" height="1334" />
+  <splash src="res/PackageIcons.iOS.Default-Portrait~ipad.png" platform="ios" width="768" height="1024" />
+  <splash src="res/PackageIcons.iOS.Default-736h.png" platform="ios" width="1242" height="2208" />
+  <splash src="res/PackageIcons.iOS.Default-Portrait@2x~ipad.png" platform="ios" width="1536" height="2048" />
+  <splash src="res/PackageIcons.iOS.Default-Landscape~ipad.png" platform="ios" width="1024" height="768" />
+  <splash src="res/PackageIcons.iOS.Default-Landscape@2x~ipad.png" platform="ios" width="2048" height="1536" />
+  <splash src="res/PackageIcons.iOS.Default-Landscape-736h.png" platform="ios" width="2208" height="1242" />
+  <icon src="res/PackageIcons.iOS.iTunesArtwork.png" platform="ios" width="1024" height="1024" />
+  <icon src="res/PackageIcons.WP.44-240.png" platform="winphone" width="106" height="106" />
+  <icon src="res/PackageIcons.WP.50-240.png" platform="winphone" width="120" height="120" />
+  <icon src="res/PackageIcons.WP.71-240.png" platform="winphone" width="170" height="170" />
+  <icon src="res/PackageIcons.WP.150-240.png" platform="winphone" width="360" height="360" />
+  <icon src="res/PackageIcons.WP.310-240.png" platform="winphone" width="744" height="744" />
+  <icon src="res/PackageIcons.WP.310x150-240.png" platform="winphone" width="744" height="360" />
+  <splash src="res/PackageIcons.WP.Splash-240.png" platform="winphone" width="1488" height="720" />
+</widget>
